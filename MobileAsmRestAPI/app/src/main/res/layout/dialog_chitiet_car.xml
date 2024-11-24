@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:drawableStart="@drawable/baseline_android_24"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tvTenXe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên xe"
+        android:drawableStart="@drawable/baseline_directions_car_24"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tvHangSanXuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãng sản xuất"
+        android:drawableStart="@drawable/baseline_branding_watermark_24"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tvNamSanXuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Năm sản xuất"
+        android:drawableStart="@drawable/baseline_access_time_24"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tvGiaBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá xe"
+        android:drawableStart="@drawable/baseline_attach_money_24"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tvMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"
+        android:drawableStart="@drawable/baseline_description_24"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    android:backgroundTint="#E1F5FE"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tvTenXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên xe"
+                android:drawableStart="@drawable/baseline_directions_car_24"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/tvHangSanXuat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hãng sản xuất"
+                android:drawableStart="@drawable/baseline_branding_watermark_24"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/tvGiaXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá xe"
+                android:drawableStart="@drawable/baseline_attach_money_24"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_mode_edit_24"
+                android:layout_marginBottom="15dp"/>
+            <ImageView
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_delete_24"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
